@@ -1,8 +1,6 @@
 <template>
-    <div>
-        <h1>
-            Arsnal Supporters
-        </h1>
+    <div class="theme">
+        <p>Arsenal Supporters</p>
     </div>
 </template>
 
@@ -13,5 +11,5 @@ export default {
 </script>
 
 <style scoped>
-    h1 {color: blue; margin:0 0 100px 0;}
+    
 </style>

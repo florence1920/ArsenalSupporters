@@ -3,11 +3,17 @@
         <h1>
             MainPage
         </h1>
-        <div class="mainFrame">
-            <game-preview></game-preview>
-            <record></record>
-            <player></player>
-        </div>
+        <ul class="mainFrame">
+            <li>
+                <game-preview></game-preview>
+            </li>
+            <li>
+                <record></record>
+            </li>
+            <li>
+                <player></player>
+            </li>
+        </ul>
 
         <!--1. main, team frame component-->
         <!--2. preview-->
@@ -30,5 +36,5 @@ export default {
 </script>
 
 <style scoped>
-    .mainFrame {background: blueviolet;}
+    .mainFrame {width: 330px; height: auto; color: #fff; background: blue;}
 </style>
