@@ -1,19 +1,20 @@
 <template>
-    <div>
-        <h1 v-if="$route.path == '/main'">
+
+    <div class="theme">
+        <p v-if="$route.path == '/main'">
             Arsnal Supporters
-        </h1>
-        <h1 v-if="$route.path == '/team'">
+        </p>
+        <p v-if="$route.path == '/team'">
             <div>
                 <router-link to='/main'> 뒤로가기 </router-link>
             </div>
             Team
-        </h1>
-        <h1 v-if="$route.path == '/matches'">
+        </p>
+        <p v-if="$route.path == '/matches'">
             <div>
                 <router-link to='/main'> 뒤로가기 </router-link>
             </div>
-        </h1>
+        </p>
     </div>
 </template>
 
@@ -24,5 +25,5 @@ export default {
 </script>
 
 <style scoped>
-    h1 {color: blue; margin:0 0 100px 0;}
+    
 </style>

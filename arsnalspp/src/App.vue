@@ -16,9 +16,8 @@ export default {
 </script>
 
 <style>
-  #app{
-    background: #92923f;
-    width: 500px;
-    margin: 0 auto;
-  }
+  #app {width: 375px; height: auto; margin: 0 auto;}
+  body {background: #fff;}
+  .theme {color:red; font-size:40px;}
+  .player_name {font-size:40px;}
 </style>
