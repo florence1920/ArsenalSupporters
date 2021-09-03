@@ -1,7 +1,18 @@
 <template>
     <div>
-        <h1>
+        <h1 v-if="$route.path == '/main'">
             Arsnal Supporters
+        </h1>
+        <h1 v-if="$route.path == '/team'">
+            <div>
+                <router-link to='/main'> 뒤로가기 </router-link>
+            </div>
+            Team
+        </h1>
+        <h1 v-if="$route.path == '/matches'">
+            <div>
+                <router-link to='/main'> 뒤로가기 </router-link>
+            </div>
         </h1>
     </div>
 </template>
