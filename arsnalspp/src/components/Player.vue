@@ -1,5 +1,6 @@
 <template>
     <ul class="player">
+        <router-link to="/team">Team바로가기</router-link>
         <p>Best XI</p>
         <li>
             <p>이승민</p>

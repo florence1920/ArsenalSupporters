@@ -1,5 +1,8 @@
 <template>
     <div class="theme">
+        <div>
+            <router-link to="/matches">Matches바로가기</router-link>
+        </div>
         <p>Premier League</p>
         <p>ArsenalLogo</p>
         <p>NorwichLogo</p>
