@@ -1,8 +1,5 @@
 <template>
     <div>
-        <h1>
-            MainPage
-        </h1>
         <ul class="mainFrame">
             <li>
                 <game-preview></game-preview>
@@ -36,5 +33,5 @@ export default {
 </script>
 
 <style scoped>
-    .mainFrame {width: 330px; height: auto; color: #fff; background: blue;}
+    .mainFrame {width: 330px; height: auto; background: blue;}
 </style>

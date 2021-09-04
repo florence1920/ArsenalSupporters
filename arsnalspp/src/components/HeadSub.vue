@@ -1,7 +1,7 @@
 <template>
     <div class="theme">
         <p v-if="$route.path == '/main'">
-            Arsnal Supporters
+            Arsenal Supporters
         </p>
         <p v-if="$route.path == '/team'">
             <router-link to='/main'> 뒤로가기 </router-link>
@@ -19,5 +19,6 @@ export default {
 </script>
 
 <style scoped>
+    
     
 </style>
