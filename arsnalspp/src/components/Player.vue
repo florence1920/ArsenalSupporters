@@ -1,13 +1,14 @@
 <template>
     <ul class="player">
         <router-link to="/team">Team바로가기</router-link>
-        <p>Best XI</p>
-        <li>
-            <p>이승민</p>
-            <p>이승헌</p>
-            <p>조윤호</p>
-            
-        </li>
+        <span v-if="$route.path == '/main'">
+            <p>Best XI</p>
+        </span>
+        <ul>
+            <li v-show="player.best" v-for="player in this.$store.state.player" v-bind:key="player.backNumber">
+                <span v-if="$route.path == '/team'">{{player.backNumber}}/</span> {{player.name}} / {{player.position}}
+            </li>
+        </ul>
     </ul>
 </template>
 

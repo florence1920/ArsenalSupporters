@@ -3,6 +3,7 @@
         <div>
             <router-link to="/matches">Matches바로가기</router-link>
         </div>
+
         <div class="outer">
             <div class="inner_box">
                 <p>Premier League</p>
@@ -14,12 +15,17 @@
                 <p class="date">2021. 09. 10</p>
             </div>
         </div>
+
     </div>
 </template>
 
 <script>
 export default {
-
+    computed :{
+        matchPreview(){
+            return this.$store.state.matchPreview
+        }
+    }
 }
 </script>
 
