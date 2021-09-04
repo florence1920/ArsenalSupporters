@@ -4,13 +4,13 @@
             <ul>
                 <p>goal</p>
                 <li class="player_name">
-                    <p>이승헌</p>
+                    <p></p>
                 </li>
             </ul>
             <ul>
                 <p>assist</p>
                 <li class="player_name">
-                    <p>이승민</p>
+                    <p></p>
                 </li>
             </ul>
         </li>
@@ -25,7 +25,5 @@ export default {
 </script>
 
 <style scoped>
-    .record {overflow: hidden; width:280px; height:250px; color:#000; background:#fff;}
-    .record li {float: left; margin: 0 20px;}
 
 </style>
