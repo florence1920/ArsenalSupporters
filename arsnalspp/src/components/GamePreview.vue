@@ -3,8 +3,8 @@
         <div>
             <router-link to="/matches">Matches바로가기</router-link>
         </div>
-        <p>Premier League</p>
-        <p>ArsenalLogo</p>
+        <p>{{ matchPreview.leagueName }}</p>
+        <p>{{ matchPreview.homeTeam }}</p>
         <p>NorwichLogo</p>
         <p>Arsenal vs Norwich</p> 
         <p>Emirates Stadium</p>
@@ -14,7 +14,11 @@
 
 <script>
 export default {
-
+    computed :{
+        matchPreview(){
+            return this.$store.state.matchPreview
+        }
+    }
 }
 </script>
 
