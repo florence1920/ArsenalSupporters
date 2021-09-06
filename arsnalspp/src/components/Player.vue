@@ -6,7 +6,7 @@
         </span>
         <ul>
             <li v-show="player.best" v-for="player in this.$store.state.player" v-bind:key="player.backNumber">
-                <span v-if="$route.path == '/team'">{{player.backNumber}}/</span> {{player.name}} / {{player.position}}
+                <span v-if="$route.path == '/team'">{{player.backNumber}}/</span> {{player.name}} / {{player.position}} / {{player.goal}}
             </li>
         </ul>
     </ul>

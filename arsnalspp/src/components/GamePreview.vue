@@ -6,7 +6,7 @@
 
         <div class="outer">
             <div class="inner_box">
-                <p>Premier League</p>
+                <p>{{ matchPreview.leagueName }}</p>
                 <div class="preview">
                     <img src="../assets/arsenal_logo.png" alt="" width="100px">
                     <img src="../assets/norwich_logo.png" alt="" width="100px">
@@ -15,7 +15,6 @@
                 <p class="date">2021. 09. 10</p>
             </div>
         </div>
-
     </div>
 </template>
 
