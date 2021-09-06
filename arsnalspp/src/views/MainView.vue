@@ -33,5 +33,5 @@ export default {
 </script>
 
 <style scoped>
-    .mainFrame {width: 330px; height: auto; background: blue;}
+    .mainFrame {background: blue;}
 </style>
