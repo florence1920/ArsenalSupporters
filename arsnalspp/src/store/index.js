@@ -3,6 +3,8 @@ import Vuex from 'vuex';
 
 Vue.use(Vuex);
 
+
+
 export const store = new Vuex.Store({
     state:{
         matchPreview : {
@@ -118,5 +120,8 @@ export const store = new Vuex.Store({
                 'best' : true
             },
         ],
+    },
+    mutations :{
+
     }
 })
