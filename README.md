@@ -1,9 +1,9 @@
 # ArsenalSupporters
 
-### ✨ Concept
+## ✨ Concept
 아스날 서포터 페이지
 
-### 🎁 Contents
+## 🎁 Contents
 #### a. main
   - 경기 일정 (날짜, 경기장, 상대)
   - goal, assist 기록
@@ -15,13 +15,13 @@
 #### c. team
   - 전체 선수 명단
 
-### 🔨 Stack
+## 🔨 Stack
 1. html5, css3
 2. vue cli 3.2.1
 3. javascript
 
 
-### ✔ How to run (on VScode)
+## ✔ How to run (on VScode)
 1. 디렉토리 asnalspp
 2. npm i @vue/cli@3.2.1
 3. npm run serve
