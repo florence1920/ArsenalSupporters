@@ -2,7 +2,8 @@
     <div class="theme">
         <div class="outer">
             <div class="inner_box">
-                <p>Premier League 
+
+                <p>{{ matchPreview.leagueName }}
                     <span>
                         <div>
                             <router-link to="/matches">+</router-link>
