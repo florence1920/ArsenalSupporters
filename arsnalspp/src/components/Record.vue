@@ -20,7 +20,6 @@
         </div>
 
     </div>
-  
 
 </template>
 
@@ -65,9 +64,9 @@ export default {
 </script>
 
 <style scoped>
-    .outer {width: 100%; background: #aaa;}
-    .outer .inner {width: 90%; background: #000; margin: 0 auto;}
-    .outer .inner .record {overflow: hidden;}
-    .record {width: 50%; float: left; color: #fff;}
-    .record li ul {}
+    .outer {color: #fff; background: #aaa;}
+    .outer .inner {overflow: hidden;  background: #000; margin: 0 auto;}
+    .outer .inner .record li ul {float: left; width: 50%; background: red;}
+    .outer .inner .record li ul p {font-size: 20px; margin: 0 0 10px 0;}
+    .outer .inner .record .player_name p {font-size: 15px; margin: 5px 10px 5px 0;}
 </style>
