@@ -1,20 +1,47 @@
 <template>
-    <ul class="record">
+    <div class="outer">
+        <div class="inner">
+            <ul class="record">
+                <li>
+                    <ul>
+                        <p>Goal</p>
+                        <li>
+                            <p>리승헌</p>
+                            <p>13</p>
+                        </li>
+                    </ul>
+                    <ul>
+                        <p>Assist</p>
+                        <li>
+                            <p>리승민</p>
+                            <p>13</p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+    </div>
+    <!-- <ul class="record">
         <li>
             <ul>
                 <p>goal</p>
+
                 <li class="player_name" v-for="player in top3GoalArr" v-bind:key="player.name">
                     <p> {{ player.name}} {{player.goal}} </p>
+
                 </li>
             </ul>
             <ul>
                 <p>assist</p>
+
                 <li class="player_name" v-for="player in top3AssiArr" v-bind:key="player.name">
                     <p> {{ player.name}} {{player.assist}} </p>
                 </li>
             </ul>
         </li>
     </ul>
+
 </template>
 
 <script>
@@ -58,5 +85,9 @@ export default {
 </script>
 
 <style scoped>
-
+    .outer {width: 100%; background: #aaa;}
+    .outer .inner {width: 90%; background: #000; margin: 0 auto;}
+    .outer .inner .record {overflow: hidden;}
+    .record {width: 50%; float: left; color: #fff;}
+    .record li ul {}
 </style>
