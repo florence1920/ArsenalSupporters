@@ -18,7 +18,6 @@
                 </li>
             </ul>
         </div>
-
     </div>
 
 </template>
@@ -64,9 +63,10 @@ export default {
 </script>
 
 <style scoped>
-    .outer {color: #fff; background: #aaa;}
-    .outer .inner {overflow: hidden;  background: #000; margin: 0 auto;}
-    .outer .inner .record li ul {float: left; width: 50%; background: red;}
-    .outer .inner .record li ul p {font-size: 20px; margin: 0 0 10px 0;}
-    .outer .inner .record .player_name p {font-size: 15px; margin: 5px 10px 5px 0;}
+    .outer {width: 100%; color: #fff; background: #073F8A;}
+    .outer .inner {overflow: hidden; width: 90%;  background: #003377; padding: 5PX 10PX; margin: 0 auto;}
+    .outer .inner .record li ul {float: left; width: 50%; background: #003377;}
+    .outer .inner .record li ul p {font-size: 15px; font-weight: 600; margin: 0 0 10px 0;}
+    .outer .inner .record li ul li {margin: 5px 0;}
+    .outer .inner .record .player_name p {font-size: 12px; font-weight: 400;}
 </style>

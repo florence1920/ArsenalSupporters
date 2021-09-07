@@ -88,7 +88,7 @@ export const store = new Vuex.Store({
                 'best' : true
             },
             {
-                'name' : 'Pierre-Emerick Aubameyang',
+                'name' : 'Pierre Aubameyang',
                 'position' : 'FW',
                 'backNumber' : 12,
                 'goal' : 110,
