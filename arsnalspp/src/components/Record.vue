@@ -4,17 +4,15 @@
             <ul class="record">
                 <li>
                     <ul>
-                        <p>Goal</p>
-                        <li>
-                            <p>리승헌</p>
-                            <p>13</p>
+                        <p>goal</p>
+                        <li class="player_name" v-for="player in top3GoalArr" v-bind:key="player.name">
+                            <p> {{ player.name}} {{player.goal}} </p>
                         </li>
                     </ul>
                     <ul>
-                        <p>Assist</p>
-                        <li>
-                            <p>리승민</p>
-                            <p>13</p>
+                        <p>assist</p>
+                        <li class="player_name" v-for="player in top3AssiArr" v-bind:key="player.name">
+                            <p> {{ player.name}} {{player.assist}} </p>
                         </li>
                     </ul>
                 </li>
@@ -22,25 +20,7 @@
         </div>
 
     </div>
-    <!-- <ul class="record">
-        <li>
-            <ul>
-                <p>goal</p>
-
-                <li class="player_name" v-for="player in top3GoalArr" v-bind:key="player.name">
-                    <p> {{ player.name}} {{player.goal}} </p>
-
-                </li>
-            </ul>
-            <ul>
-                <p>assist</p>
-
-                <li class="player_name" v-for="player in top3AssiArr" v-bind:key="player.name">
-                    <p> {{ player.name}} {{player.assist}} </p>
-                </li>
-            </ul>
-        </li>
-    </ul>
+  
 
 </template>
 
