@@ -17,10 +17,9 @@ export default {
 
 <style>
   /* reset */
-  *, div, p, ul, li, section, body {list-style: none; margin: 0; padding: 0; box-sizing: border-box;}
+  *, div, p, ul, li, section, body {text-decoration: none; list-style: none; margin: 0; padding: 0; box-sizing: border-box;}
 
-  #app {width: 375px; background: #000; margin: 0 auto;}
+  #app {width: 375px; margin: 0 auto;}
   body {background: #fff;}
   .theme {color:red; font-size: 30px;}
-  .player_name {font-size:40px;}
 </style>
