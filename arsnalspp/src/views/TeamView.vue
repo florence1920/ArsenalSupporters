@@ -1,6 +1,5 @@
 <template>
     <div>
-        team
         <player></player>
     </div>
 </template>
