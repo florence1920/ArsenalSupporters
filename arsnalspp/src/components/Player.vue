@@ -6,7 +6,9 @@
         </span>
         <ul class="list_player">
             <li v-show="player.best" v-for="player in this.$store.state.player" v-bind:key="player.backNumber">
+
                 <span class="number" v-if="$route.path == '/team'">{{player.backNumber}}</span><span class="name">{{player.name}}</span><span class="position">{{player.position}}</span>
+
             </li>
         </ul>
     </ul>

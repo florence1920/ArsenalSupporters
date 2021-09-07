@@ -120,8 +120,41 @@ export const store = new Vuex.Store({
                 'best' : true
             },
         ],
+        //playerEnd
+        top3GoalArr :[
+
+        ],
+        top3AssiArr :[
+
+        ]
     },
     mutations :{
+        goalRecord(state){
+            let goalArr = [];
+            //let top3GoalArr = [];
+            for(let i =0; i < state.player.length; i++){
+                goalArr.push({name: state.player[i].name, goal :state.player[i].goal });
+            }
+            //오름차순 함수 만들기
+            function compare(key){
+                return (a,b) => (a[key] < b[key] ? 1 : (a[key] > b[key] ? -1 : 0));
+            }
+            goalArr.sort(compare('goal'));
+            state.top3GoalArr = goalArr.slice(0,3);
+        },
+        assistRecord(state){
+            let assiArr = [];
+            //Assist새로운 배열 만들기
+            for(let i =0; i < state.player.length; i++){
+                assiArr.push({name: state.player[i].name, assist :state.player[i].assist });
+            }
+            //오름 차순 만들기
+            function compare(key){
+                return (a,b) => (a[key] < b[key] ? 1 : (a[key] > b[key] ? -1 : 0));
+            }
+            assiArr.sort(compare('assist'));
+            state.top3AssiArr =assiArr.slice(0,3);
 
+        }
     }
 })
