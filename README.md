@@ -7,7 +7,7 @@
 a. main
   - 경기 일정 (날짜, 경기장, 상대)
   - goal, assist 기록
-  - best 11 명단    
+  - best 11 명단
 b. matches
   - 경기 정보
   - 최근 상대 전적
