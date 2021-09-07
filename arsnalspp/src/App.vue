@@ -16,10 +16,10 @@ export default {
 </script>
 
 <style>
-  /* reset */
-  *, div, p, ul, li, section, body {text-decoration: none; list-style: none; margin: 0; padding: 0; box-sizing: border-box;}
+/* reset */
+*, div, p, ul, li, section, body {text-decoration: none; list-style: none; margin: 0; padding: 0; box-sizing: border-box;}
 
-  #app {width: 375px; margin: 0 auto;}
-  body {background: #fff;}
-  .theme {color:red; font-size: 30px;}
+body {background: #eee;}
+#app {overflow: hidden; width: 375px; min-height:667px; background: #fff; border-radius: 20px; margin: 50px auto 0;}
+.theme {color:red; font-size: 30px;}
 </style>
