@@ -9,7 +9,7 @@
         </div>
         <div class="top" v-if="$route.path == '/matches'">
             <router-link to='/main'><p class="back"></p></router-link>            
-            <p class="tit">20-21 Squad</p>
+            <p class="tit"></p>
         </div>
     </div>
 </template>

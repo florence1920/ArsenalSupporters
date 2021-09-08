@@ -1,7 +1,7 @@
 <template>
     <ul class="player">        
         <span v-if="$route.path == '/main'">
-            <router-link to="/team">Team바로가기</router-link>
+            <router-link to="/team" class="link">+</router-link>
             <p>Best XI</p>
         </span>
         <ul class="list_player">
@@ -21,6 +21,8 @@ export default {
 </script>
 
 <style scoped>
+.player {overflow: hidden; background: #003377; color: #fff; font-weight: 600; padding: 30px 25px 40px 15px;}
+.player .link {color: #fff; float: right;}
 .list_player {min-height: calc(667px - 60px); background: #003377; padding: 30px 25px 40px 15px;}
 .list_player li {color:#fff; font-size:15px; margin: 0 0 20px;}
 .list_player li:last-child {margin: 0;}
