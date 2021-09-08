@@ -1,6 +1,5 @@
 <template>
     <div>
-        MatchPage
         <game-info></game-info>
         <reply></reply>
     </div>
