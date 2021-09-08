@@ -1,7 +1,6 @@
 <template>
-    <div class="theme">
-        <p class="test">승헌아안녕</p>
-        gameInfo
+    <div class="top">
+        Game Info
     </div>
 </template>
 

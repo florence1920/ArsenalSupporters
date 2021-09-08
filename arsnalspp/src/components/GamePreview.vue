@@ -30,8 +30,8 @@ export default {
 </script>
 
 <style scoped>
-    .outer {width: 100%; color: #fff; font-size: 20px; background: #073F8A; padding: 5px 5px;}
-    .outer .inner {overflow: hidden; width: 90%; background: #003377; margin: 20px auto; text-align: center;}
+    .outer {width: 100%; color: #fff; font-size: 18px; background: #073F8A; padding: 20px 5px;}
+    .outer .inner {overflow: hidden; width: 90%; background: #003377; margin: 0 auto 20px; text-align: center;}
     .outer .inner span {float: right;}
     .outer .inner .preview p {display: inline;}
 </style>
